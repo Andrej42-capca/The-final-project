@@ -2,3 +2,10 @@
 #import numpy as np
 #import matplotlib.pyplot as plt
 #def calculate_projectile_motion(v0, angle_deg, y0=0.0, g=9.81):
+# angle_rad = math.radians(angle_deg)
+ #   vx = v0 * math.cos(angle_rad)
+ #   vy = v0 * math.sin(angle_rad)
+  #  t_up = vy / g
+  #  h_max = y0 + (vy ** 2) / (2*g)
+  #  t_total = t_up + math.sqrt((2 *(h_max if y0 == 0 else(h_max + y0)))/g)
+   # L = vx * t_total
