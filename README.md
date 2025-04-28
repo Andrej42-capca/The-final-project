@@ -1,3 +1,1 @@
-import math
-import numpy as np
-import matplotlib.pyplot as plt
+Я Зебницкий Андрей из группы Мф-72 сделал проект , рассчитывающий полет тела.
