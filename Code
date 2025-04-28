@@ -9,3 +9,16 @@
   #  h_max = y0 + (vy ** 2) / (2*g)
   #  t_total = t_up + math.sqrt((2 *(h_max if y0 == 0 else(h_max + y0)))/g)
    # L = vx * t_total
+#t_points = np.linspace(0, t_total, 100)
+   # x_points = vx * t_points
+   # y_points = y0 + vy * t_points - 0.5*g*t_points**2
+   # plt.figure(figsize=(10,6))
+   # plt.plot(x_points,y_points,label = "Траектория" , color = "blue")
+   # plt.scatter([0,L],[y0,0], color = "red")
+   # plt.axhline(0,color = "black", linestyle = "--")
+   # plt.xlabel("Расстояние(м)")
+   # plt.ylabel("Высота(м)")
+   # plt.title(f"Траектория полета (v0 = {v0} м/с угол = {angle_deg}°)")
+   # plt.grid(True)
+   # plt.legend()
+   # plt.show()
