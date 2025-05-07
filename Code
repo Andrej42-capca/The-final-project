@@ -22,3 +22,19 @@
    # plt.grid(True)
    # plt.legend()
    # plt.show()
+ #return {
+     #"Время полета (с)" : t_total,
+     #"Максимальная высота (м)" : h_max,
+     #"Дальность полета (м)" : L,
+     #"Горизонтальная скорость (м/с)" : vx,
+     #"Вертикальная скорость (м/с)" : vy
+    #}
+#print("Код, рассчитывающий полет тела")
+#y0 = float(input("Начальная высота (м, ):") or 0)
+#angle_deg = float(input("Угол броска (градусы,  0-90):") )
+#v0 = float(input("Начальная скорость (м/с, ):"))
+#if angle_deg < 0 or angle_deg > 90:
+     #print("Ошибка")
+#else:
+ #results = calculate_projectile_motion(v0,angle_deg,y0)
+ #print(results)
